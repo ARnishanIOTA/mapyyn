@@ -1,0 +1,88 @@
+/*
+	Theme Name : tech;
+
+	First Color : #b36fff;
+
+	Second Color : #79ca00;
+
+*/
+
+@font-face {
+	src: url(../fonts/Cairo-SemiBold.ttf);
+	font-family: SemiBold;
+}
+
+* {
+	font-family: SemiBold;
+    direction: ltr ;
+    text-align: left ;
+}
+
+:root {
+	--first-color:#b36fff;
+	--Sec-color:#79ca00;
+	--three-color :#f5a623;
+}
+
+.booking .custome-input-price .title-button {
+    top: 18px;
+    left: 40px;
+}
+.booking .custome-input-price #price {
+	padding-left: 250px;
+	z-index: 5;
+}
+.booking .custome-input-price {
+	z-index: 1;
+	position: unset;
+}
+.best-offers .item .col-md-4 img {
+    border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.information select {
+	padding-left: 60px !important;
+}
+.custome-input span {
+	position: absolute;
+	z-index: 99;
+	right: 35px;
+	top: 14px;
+	color: var(--Sec-color);
+	width: 20px;
+	height: 20px;
+}
+.custome-input #input-custome {
+	padding-left: 60px;
+}
+.booking .count-vistor {
+	padding-right: 0;
+	padding-left: 60px;
+}
+.best-offers .item .desc {
+	padding: 15px 20px 30px 20px;
+}
+
+.rate-code {
+	font-family: FontAwesome;
+  }
+  
+  .rate-input {
+	display:none;
+  }
+  /* custom style */
+  #rate-code_rate li i {
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	cursor:pointer;
+	color: #000;
+  }
+  
+
+  #rate-code_rate li.active i {
+	color: orange !important;
+  }
